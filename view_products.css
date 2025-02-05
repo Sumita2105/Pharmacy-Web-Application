@@ -1,0 +1,38 @@
+body {
+  overflow-y: scroll; /* Show vertical scrollbar */
+  overflow-x: scroll; /* Show horizontal scrollbar */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+   border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+   border: 1px solid black;
+}
+
+tr
+{
+	background-color:white;
+ border: 1px solid black;
+ }
+
+th{
+	background-color:#04AA6D;
+}
+input[type=submit]{
+	
+	background-color:#04AA6D;
+	width:20%;
+	color:white;
+	border-radius:20px;
+	height:50px;
+	font-size:20px;
+	
+}
+input[type=submit]:hover{
+	background-color:green;
+}

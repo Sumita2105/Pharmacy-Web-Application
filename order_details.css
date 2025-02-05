@@ -1,0 +1,122 @@
+.u-section-1 {
+  background-image: linear-gradient(to right, #2cccc4, #858e99);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 750px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 114px;
+  height: 114px;
+  animation-duration: 1000ms;
+  background-image: url("images/Shop_admin.gif");
+  background-position: 50% 50%;
+  margin: 22px auto 0 513px;
+}
+
+.u-section-1 .u-text-1 {
+  animation-duration: 1000ms;
+  text-decoration: underline !important;
+  margin: 11px 497px 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin-left: 497px;
+  margin-right: 497px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  background-image: none;
+  font-size: 1.125rem;
+  margin: 435px auto 11px;
+  padding: 17px 75px 19px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 397px;
+    margin-right: 397px;
+    width: 146px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 397px;
+    margin-right: 397px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 287px;
+    margin-right: 287px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 287px;
+    margin-right: 287px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 426px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 197px;
+    margin-right: 197px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 197px;
+    margin-right: 197px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 226px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 97px;
+    margin-right: 97px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 97px;
+    margin-right: 97px;
+  }
+} body {
+  font-family: Arial;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
