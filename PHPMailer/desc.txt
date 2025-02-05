@@ -1,0 +1,1 @@
+This is a PHP library that will help to send email from the web application
